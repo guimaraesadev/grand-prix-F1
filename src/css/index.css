@@ -27,3 +27,8 @@ body {
     font-size: 50px;
     /* -webkit-text-stroke: 0.9px rgb(227, 220, 220); */
 }
+
+.audio {
+    opacity: 0.1;
+    z-index: -1000;
+}
