@@ -6,4 +6,127 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(243, 241, 239); */
 }
+
+
+
+/* NAVBAR */
+
+#item {
+    color:#ff1e02;
+    font-weight: 500;
+}
+
+/* #navbar {
+    border-bottom: 1px solid #aaa6a6;
+} */
+
+#item:hover {
+    color: rgb(24, 18, 98)
+}
+
+.navbar-brand span {
+    color:rgb(24, 18, 98);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/* #navbar a.active {
+    border-bottom: 1px solid #050505;
+} */
+
+.navbar-brand {
+    display: flex;
+}
+
+/* .navbar-brand img {
+    width: 150px;
+} */
+
+#navbar-items .navbar-nav{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em
+}
+
+.imageOne {
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.text-center-span {
+    font-weight: 500;
+}
+
+#dbIcon {
+    font-size: 30px;
+}
+
+#carol-1, #carol-2, #carol-3 {
+    max-width: 900px; 
+    max-height: 950px;
+}
+
+.carousel-section {
+    display: flex;
+    justify-content: center;
+}
+
+.gif-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-inicial {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.span-dash {
+    font-size: 16px;
+}
+
+.about-race{
+ display: flex;
+ justify-content: center;
+ margin: 0 30%;
+ text-align: center;
+ padding-top: 20px;
+
+}
+
+.video-f1 {
+    display: flex;
+    justify-content: center;
+}
+
+.map-gp{
+    width: 600px;
+}
+
+.map-father {
+    display: flex;
+    justify-content: center;
+}
+
