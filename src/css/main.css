@@ -130,3 +130,87 @@ width: 100%;
     justify-content: center;
 }
 
+
+/* SENNA - FINAL */
+
+#senna-caro{
+    object-position: cover;
+}
+
+.paragraf-center {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+.paragraf-center-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* background */
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/img/senna-green-ok.png");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .background-total{
+    width: 100%;
+    height: 900;
+    
+  }
+
+#navbar a {
+    color:rgb(24, 18, 98);
+    font-weight: 600;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+.text-center .sub-title-3 {
+    font-weight: 700;
+}
+
+.about-2 {
+    background: #407331;
+  }
+  
+  
+  .about-2 .checklist {
+    padding-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .about-2 .checklist li:before {
+    position: absolute;
+    margin-right: 12px;
+    margin-left: -45px;
+    content: "\f375";
+    opacity: 1;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 20px;
+  }
+
+  .image-quadro-senna {
+    width: 500px; 
+  }
+
+  .about-2 .checklist h3 {
+    color: #000
+  }
