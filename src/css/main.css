@@ -214,3 +214,27 @@ width: 100%;
   .about-2 .checklist h3 {
     color: #000
   }
+
+  .senna-fatos {
+    padding-top: 30px;
+    height: 400px;
+  }
+
+  .image-quadro-senna-2 {
+    width: 400px;
+  }
+
+  .float {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-race-2{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+   
+   }
